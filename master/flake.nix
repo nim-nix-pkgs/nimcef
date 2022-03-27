@@ -11,6 +11,7 @@
   inputs.src-nimCEF-master.ref   = "refs/heads/master";
   inputs.src-nimCEF-master.owner = "jangko";
   inputs.src-nimCEF-master.repo  = "nimCEF";
+  inputs.src-nimCEF-master.dir   = "";
   inputs.src-nimCEF-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
